@@ -11,5 +11,4 @@ app.get("/", (req: Request, res: Response): void => {
   res.send("Welcome to TypeScript");
 });
 
-
 export const api = functions.https.onRequest(app);
